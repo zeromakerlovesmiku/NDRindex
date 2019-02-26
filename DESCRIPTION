@@ -1,0 +1,25 @@
+Package: NDRindex
+Type: Package
+Title: a R package for selecting the best way for RNA-Seq data pretreatment
+Version: 0.1.0
+Authors@R: person("Ruiyu", "Xiao", email = "zero_maker@163.com",
+                  role = c("aut", "cre"))
+Description: The package NRselect for the R software is developed for selecting the best combination of normalization and dimension reduction for RNA-Seq data pretreatment. 
+License: GNU General Public Licence(v.3)
+Encoding: UTF-8
+LazyData: true
+biocViews:
+Depends:
+  dplyr,
+  Rcpp,
+  EDASeq,
+  Linnorm,
+  scran,
+  Seurat,
+  edgeR,
+  scran,
+  Rtsne,
+  MASS,
+  pcaMethods
+LinkingTo: Rcpp
+RoxygenNote: 6.1.0
